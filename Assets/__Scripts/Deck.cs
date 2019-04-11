@@ -53,7 +53,7 @@ public class Deck : MonoBehaviour {
     {
         xmlr = new PT_XMLReader();
         xmlr.Parse(deckXMLText);
-        string s = "xml[0]	decorator[0]	";
+        string s = "xml[0]	decorator[0]";
         s += "type=" + xmlr.xml["xml"][0]["decorator"][0].att("type");
         s += "	x=" + xmlr.xml["xml"][0]["decorator"][0].att("x");
         s += "	y=" + xmlr.xml["xml"][0]["decorator"][0].att("y");

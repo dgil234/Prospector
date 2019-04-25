@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class Deck : MonoBehaviour {
 
     [Header("Set	in	Inspector")]
-    public bool startFaceUp = true;
+    public bool startFaceUp = false;
     public Sprite suitClub;
     public Sprite suitDiamond;
     public Sprite suitHeart;

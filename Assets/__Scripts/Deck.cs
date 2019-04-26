@@ -261,6 +261,7 @@ public class Deck : MonoBehaviour {
         _tGO.transform.localPosition = Vector3.zero;
         _tSR.sortingOrder = 2;
         _tGO.name = "back";
+        card.back = _tGO;
         card.faceUp = startFaceUp;
     }
 
